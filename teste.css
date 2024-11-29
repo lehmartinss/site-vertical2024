@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-align: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    background-color: #333;
+    padding: 16px;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    z-index: 2;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    color: white;
+    padding: 8px;
+    transition: 2s;
+}
+
+header nav a:hover{
+    background-color: rgb(241, 225, 237);
+    transition: 2s;
+
+}
+
+.containertexto{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+#vermelho{
+    background-color: rgb(240, 226, 142); 
+}
+
+#verde{
+    background-color: rgb(251, 108, 95);
+
+}
+
+#azul {
+    background-color: rgb(179, 244, 205);
+}
+#amarelo{
+    background-color: rgb(232, 174, 146);
+}
+#roxo{
+    background-color: rgb(35, 137, 33);
+}
+
+h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 40px;
+    font-size: 20px;
+    max-width: 600px;
+}
+.grupo img{
+    width: 600px;
+    height: auto;
+    margin: 20px;
+    max-width: 90%;
+
+}
